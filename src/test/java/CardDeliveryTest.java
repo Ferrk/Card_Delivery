@@ -12,7 +12,7 @@ public class CardDeliveryTest {
     @Test
     public void shouldSuccessfulFormSubmission() {
         open("http://localhost:9999");
-        $("[data-test-id=city] input").setValue("Анапа");
+        $("[data-test-id=city] input").setValue("Тула");
         $("[data-test-id=date] input").doubleClick().sendKeys(Keys.DELETE);
         String verificationDate = LocalDate.now().plusDays(4)           //Текущая дата плюс 4 дня
                 .format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));     //Формат даты день.месяц.год
