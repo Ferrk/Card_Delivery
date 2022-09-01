@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CardDeliveryTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-08-31T22:40:42" hostname="LAPTOP-FJKNUUPJ" time="3.115">
+<testsuite name="CardDeliveryTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2022-09-01T21:18:32" hostname="LAPTOP-FJKNUUPJ" time="6.318">
   <properties/>
-  <testcase name="shouldSuccessfulFormSubmission()" classname="CardDeliveryTest" time="3.115">
+  <testcase name="shouldSuccessfulFormSubmission()" classname="CardDeliveryTest" time="6.318">
     <failure message="org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'LAPTOP-FJKNUUPJ', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=&lt;-loopb..., --disable-dev-shm-usage, --no-sandbox], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\Justd\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, pageLoadStrategy: normal}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, acceptSslCerts: true, browserName: chrome, goog:chromeOptions: {args: [--proxy-bypass-list=&lt;-loopb..., --disable-dev-shm-usage, --no-sandbox], excludeSwitches: [enable-automation, load-extension], extensions: [], prefs: {credentials_enable_service: false, download.default_directory: C:\Users\Justd\IdeaProjects..., plugins.always_open_pdf_externally: true, profile.default_content_setting_values.automatic_downloads: 1, safebrowsing.enabled: true}}, handlesAlerts: true, javascriptEnabled: true, pageLoadStrategy: normal, takesScreenshot: true}}]&#10;selenide.url: http://localhost:9999&#10;selenide.baseUrl: http://localhost:8080" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find Chrome binary
 Build info: version: '4.1.1', revision: 'e8fcc2cecf'
 System info: host: 'LAPTOP-FJKNUUPJ', ip: '192.168.1.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
@@ -35,7 +35,7 @@ selenide.baseUrl: http://localhost:8080
 	at app//com.codeborne.selenide.drivercommands.Navigator.open(Navigator.java:30)
 	at app//com.codeborne.selenide.SelenideDriver.open(SelenideDriver.java:101)
 	at app//com.codeborne.selenide.Selenide.open(Selenide.java:51)
-	at app//CardDeliveryTest.shouldSuccessfulFormSubmission(CardDeliveryTest.java:14)
+	at app//CardDeliveryTest.shouldSuccessfulFormSubmission(CardDeliveryTest.java:16)
 	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -125,7 +125,7 @@ selenide.baseUrl: http://localhost:8080
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 57818
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 51919
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
